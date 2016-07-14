@@ -1,0 +1,147 @@
+/* CSS Document */
+
+body {
+	background-color: #9F9E9E;
+	font-family: Arial, Times New Roman, san-serif;
+}
+
+div#parent {
+	width: 780px;
+	border: 1px solid #000;
+	background-color: #fff;
+	margin: 0 auto;
+	min-height: 500px;
+}
+
+div#parent div#header {
+	height: 102px;
+	background: transparent url('files/historyHome.gif') center center no-repeat;
+}
+
+div#subHeader {
+}
+	
+
+div#main {
+	min-height: 500px;
+	background-image: url('files/uofu_medallion_rt.gif');
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+
+div#main div#topNav {
+	text-transform: uppercase;
+	text-align: right;
+	font-size: 10px;
+	padding: 5px 20px 0 0;
+}
+div#main div#topNav a {
+	color: #000;
+	text-decoration: none;
+}
+div#main div#topNav a:hover {
+	text-decoration: underline;
+}
+
+
+
+div#main div#brownBox {
+	background: transparent url('files/brownBox.gif') 50% 50% no-repeat;
+	min-height: 600px;
+	margin: 10px 0 60px;
+}
+
+div#brownBox div#leftSide {
+	float: left;
+	width: 30%;
+	min-height: 500px;
+	margin: 30px 0 0 40px;
+}
+
+div#leftSide div#leftNav {
+}
+div#leftNav a {
+	display: block;
+	text-decoration: none;
+	border-bottom: 1px solid #796F02;
+	color: #000;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 10px 0 10px 10px;
+}
+div#leftNav a:hover {
+	color: #fff;
+	background-color: #796F02;
+}
+
+div#leftSide div#login {
+	margin: 100px auto 0;
+	width: 153px;
+}
+
+
+div#brownBox div#rightSide {
+	float: right;
+	background-color: #fff;
+	width: 56.3%;
+	min-height: 500px;
+	margin: 30px 40px 0 0;
+	padding: 10px;
+}
+div#rightSide h2 {
+	text-transform: uppercase;
+	color:#D60003;
+	border-bottom: 2px dotted #D60003;
+	font-size: 15px;
+	font-weight: normal;
+}
+
+div#rightSide div#announcement {
+	font-size: 10px;
+	height: 100px;
+	overflow: auto;
+}
+
+div#announcement .highlight {
+	font-size: 110%;
+	font-weight: bold;
+}
+
+div#announcement p {
+	margin: 0 0 4px;
+}
+
+
+
+div#main div#botNav {
+	text-align: right;
+	font-size: 10px;
+	margin: 0 20px 10px 0;
+}
+div#main div#botNav a {
+	padding: 0 10px 0;
+	color: #000;
+	text-decoration: none;
+	text-transform: lowercase;
+}
+div#main div#botNav a:last-child {
+	padding: 0;
+}
+div#main div#botNav a:hover {
+	text-decoration: underline;
+}
+
+
+div#footer {
+	background-color: #796F02;
+	color: #fff;
+	font-size: 10px;
+	text-align: center;
+	padding: 10px 0;
+}
+
+
+
+
+
+
