@@ -1,0 +1,153 @@
+
+body {
+    background-color: darkslategrey;
+    font-family: Arial, "Times New Roman", san-serif;
+}
+
+
+.parent {
+    margin: 0 auto;
+    width: 780px;
+    min-height: 500px;
+    background-color:  #fff;
+}
+
+.parent .header {
+}
+
+.parent .subHeader {
+    background: transparent url('files/histHomepic.jpg') top left no-repeat;
+    height: 50px;
+}
+
+
+.parent .bodyContent {
+    min-height: 600px;
+    background: transparent url('files/uofu_medallion_rt.gif') bottom right no-repeat;
+}
+
+
+.bodyContent .topNav {
+    text-align: right;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+.topNav a {
+    color: #000;
+    text-decoration: none;
+    border-right: 1px solid #000;
+    padding: 0 10px;
+}
+.topNav a:last-child {
+    border: none;
+    margin-right: 5px;
+}
+
+
+.bodyContent .brownBox {
+    background-color: #bec4a1;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    min-height: 500px;
+    width: 90%;
+    margin: 10px auto 10px;
+    padding: 20px 20px 0
+}
+
+.brownBox .leftSide {
+    float: left;
+    width: 30%;
+    min-height: 400px;
+}
+
+.leftSide .nav {
+    min-height: 250px;
+}
+.leftSide .nav a {
+    display: block;
+    color: #000;
+    text-transform: uppercase;
+    padding: 8px 0 8px 10px;
+    font-size: 11.5px;
+    text-decoration: none;
+}
+.leftSide .nav a:hover {
+    background-color: #8B4513;
+    color: #fff;
+}
+
+
+.leftSide .login {
+    margin: 60px auto 0;
+    width: 150px;
+}
+
+
+
+
+.brownBox .rightSide {
+    float: right;
+    width: 62.5%;
+    background-color: #fff;
+    min-height: 400px;
+    padding: 10px;
+}
+
+.rightSide h1 {
+    color: red;
+    border-bottom: 3px dashed red;
+    font-size: 22px;
+}
+
+.rightSide div.copy {
+    height: 100px;
+    font-size: 10px;
+    overflow: auto;
+    border: 1px solid #000;
+}
+div.copy p {
+    margin: 0 0 3px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.bodyContent .botNav {
+    text-align: right;
+    text-transform: lowercase;
+    margin: 60px 10px 10px 0;
+}
+.botNav a {
+    color: #000;
+    text-decoration: none;
+    font-size: 10px;
+    border-right: 1px solid #000;
+    padding: 0 5px;
+}
+.botNav a:last-child {
+    border: none;
+}
+
+.topNav a:hover,
+.botNav a:hover {
+    text-decoration: underline;
+}
+
+
+
+.parent .footer {
+    background-color: darkolivegreen;
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    padding: 5px 0;
+}
